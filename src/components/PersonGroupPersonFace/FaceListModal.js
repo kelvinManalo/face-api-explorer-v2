@@ -94,7 +94,7 @@ return (
                     </Header>
                 </Grid.Column>
             </Grid.Row>
-            {person.persistedFaceIds.length > 0 ? renderTable() : renderLoading()}
+            {renderTable()}
         </Grid>
         </Modal.Content>
     </Modal>

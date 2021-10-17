@@ -100,7 +100,7 @@ const PersonGroup = () => {
                     </Header>
                 </Grid.Column>
             </Grid.Row>
-            {personGroups.length > 0 ? renderTable() : renderLoading()}
+            {renderTable()}
         </Grid> 
     );
 }
