@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { Button, Table, Grid, Header, Loader, Modal, Icon } from 'semantic-ui-react'
+import { Button, Grid, Modal, Icon } from 'semantic-ui-react'
 import { getTrainingStatus, trainPersonGroup } from '../../actions'
 function TrainingModal( {personGroupId} ) {
   const [open, setOpen] = useState(false);  
