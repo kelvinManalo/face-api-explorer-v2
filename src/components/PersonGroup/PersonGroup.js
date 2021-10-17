@@ -81,16 +81,6 @@ const PersonGroup = () => {
       );
   }
 
-  const renderLoading = () => {
-      return (
-        <Grid.Row>
-            <Grid.Column>
-                <Loader active inline='centered' content='Loading'/>
-        </Grid.Column>
-      </Grid.Row>
-      );
-  }
-
     return (       
         <Grid container style={{ padding: '5em 0em' }}>
             <Grid.Row>

@@ -65,16 +65,6 @@ function FaceListModal({person, length, addFaceHandler, deleteFaceHandler}) {
     </Grid.Row>
       );
   }
-
-  const renderLoading = () => {
-    return (
-      <Grid.Row>
-          <Grid.Column>
-              <Loader active inline='centered' content='Loading'/>
-      </Grid.Column>
-    </Grid.Row>
-    );
-};
   
  
 return (

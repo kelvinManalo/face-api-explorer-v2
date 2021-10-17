@@ -86,16 +86,6 @@ const PersonList = () => {
         );
     };
 
-    const renderLoading = () => {
-        return (
-          <Grid.Row>
-              <Grid.Column>
-                  <Loader active inline='centered' content='Loading'/>
-          </Grid.Column>
-        </Grid.Row>
-        );
-    };   
-
     return (
         <Grid container style={{ padding: '5em 0em' }}>
             <Grid.Row>
@@ -105,7 +95,7 @@ const PersonList = () => {
                     </Header>
                 </Grid.Column>
             </Grid.Row>
-            {persons.length > 0 ? renderTable() : renderLoading()}
+            {renderTable()}
         </Grid>
     );
 }
