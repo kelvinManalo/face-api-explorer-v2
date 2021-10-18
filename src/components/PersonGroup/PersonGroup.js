@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchPersonGroups, createPersonGroup, updatePersonGroup, deletePersonGroup } from "../../actions";
 import {Link,useRouteMatch} from "react-router-dom";
-import { Grid, Header, Table, Loader } from 'semantic-ui-react';
+import { Grid, Header, Table } from 'semantic-ui-react';
 import AddPersonGroupModal from "./AddPersonGroupModal";
 import EditPersonGroupModal from "./EditPersonGroupModal"
 import DeletePersonGroupModal from "./DeletePersonGroupModal"

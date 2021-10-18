@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Button, Table, Grid, Header, Loader, Modal, Icon } from 'semantic-ui-react'
+import { Button, Table, Grid, Header, Modal, Icon } from 'semantic-ui-react'
 
 function FaceListModal({person, length, addFaceHandler, deleteFaceHandler}) {
   const [open, setOpen] = React.useState(false);

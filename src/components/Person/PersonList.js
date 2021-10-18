@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {Link, useParams} from "react-router-dom";
-import { Grid, Table, Loader, Header, Button } from "semantic-ui-react";
+import { Grid, Table, Header, Button } from "semantic-ui-react";
 import { createPersonGroupPerson, deletePersonGroupPerson, fetchPersonGroupPerson, updatePersonGroupPerson, createPersonFace, deletePersonFace } from "../../actions";
 import AddPersonModal from "./AddPersonModal";
 import DeletePersonModal from "./DeletePersonModal";
